@@ -52,26 +52,30 @@
 3. Отфильтрованный список товаров появится автоматически.
 
 ## Структура репозитория
-  scm-project/
-├── src/main/java/com.example.scmproject/
-│   ├── application/Application.java 
-│   ├── controller/ 
-│   │   └── GoodsController.java
-│   ├── model/ 
-│   │   ├── Category.java
-│   │   ├── Good.java
-│   │   └── Supplier.java
-│   ├── repository/ 
-│   │   ├── CategoryRepository.java
-│   │   ├── GoodRepository.java
-│   │   └── SupplierRepository.java
-│   └── service/ 
-│       ├── CategoryService.java
-│       ├── GoodService.java
-│       └── SupplierService.java
-├── src/main/resources/application.properties 
-├── pom.xml 
-└── Dockerfile
+repository-root/
+│
+├── .gitignore          # Список игнорируемых файлов
+├── LICENSE             # Лицензионная информация
+├── README.md           # Основной документ описания проекта
+│
+├── bin/                # Исполняемые файлы и скрипты сборки
+│
+├── conf/               # Конфигурационные файлы и настройки
+│
+├── doc/                # Документы и техническое руководство
+│
+├── lib/                # Внешние библиотеки и зависимости
+│
+├── src/                # Исходные коды проекта
+│   ├── main/           # Основная логика и классы
+│   │   ├── app/        # Код основного приложения
+│   │   ├── util/       # Вспомогательные утилиты и инструменты
+│   │   └── view/       # Представления и графический интерфейс
+│   └── test/           # Юнит-тесты и интеграционное тестирование
+│
+├── tests/              # Отдельные тестовые сценарии
+│
+└── vendor/             # Локально установленные пакеты и модули
 
 
 
