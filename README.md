@@ -52,31 +52,48 @@
 3. Отфильтрованный список товаров появится автоматически.
 
 ## Структура репозитория
-repository-root/
-│
-├── .gitignore          # Список игнорируемых файлов
-├── LICENSE             # Лицензионная информация
-├── README.md           # Основной документ описания проекта
-│
-├── bin/                # Исполняемые файлы и скрипты сборки
-│
-├── conf/               # Конфигурационные файлы и настройки
-│
-├── doc/                # Документы и техническое руководство
-│
-├── lib/                # Внешние библиотеки и зависимост
-│
-├── src/                # Исходные коды проекта
-│   ├── main/           # Основная логика и классы
-│   │   ├── app/        # Код основного приложения
-│   │   ├── util/       # Вспомогательные утилиты и инструменты
-│   │   └── view/       # Представления и графический интерфейс
-│   └── test/           # Юнит-тесты и интеграционное тестирование
-│
-├── tests/              # Отдельные тестовые сценарии
-│
-└── vendor/             # Локально установленные пакеты и модули
+```text
+scm-project/
+├── src/main/java/com.example.scmproject/
+│   ├── application/Application.java 
+│   ├── controller/ 
+│   │   └── GoodsController.java
+│   ├── model/ 
+│   │   ├── Category.java
+│   │   ├── Good.java
+│   │   └── Supplier.java
+│   ├── repository/ 
+│   │   ├── CategoryRepository.java
+│   │   ├── GoodRepository.java
+│   │   └── SupplierRepository.java
+│   └── service/ 
+│       ├── CategoryService.java
+│       ├── GoodService.java
+│       └── SupplierService.java
+├── src/main/resources/application.properties 
+├── pom.xml 
+└── Dockerfile
+```
 
+### Технические требования
+
+* Язык программирования: Java 11+
+* Библиотеки: JavaFX, Hibernate ORM, Spring Boot
+* Версия PostgreSQL: >= 12
+* Операционная система: Windows, Linux, macOS
+
+### 7. Авторы проекта
+```text
+Никита Мирошниченко - автор проекта, архитектура, дизайн отчета
+Роль: Full-stack java developer студент → junior уровень
+Глеб Кашаев - разработчик-тестировщик
+Роль: Full-stack java developer, Тестировщик ПО → junior уровень
+```
+
+### 8. Контакты и обратная связь
+
+Почта: nikdenimir@gmail.com 
+Discord: voprospomehanike
 
 
 
