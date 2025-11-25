@@ -52,8 +52,7 @@
 3. Отфильтрованный список товаров появится автоматически.
 
 ## Структура репозитория
-    ```
-    scm-project/
+  scm-project/
 ├── src/main/java/com.example.scmproject/
 │   ├── application/Application.java 
 │   ├── controller/ 
@@ -73,7 +72,6 @@
 ├── src/main/resources/application.properties 
 ├── pom.xml 
 └── Dockerfile
-    ```
 
 
 
