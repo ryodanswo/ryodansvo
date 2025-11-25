@@ -46,6 +46,34 @@
 2. Нажмите кнопку "Добавить новый товар".
 3. Заполните поля формы (название, категория, поставщик, количество, срок годности).
 4. Сохраните изменения.
+## Поиск товара по категории
+1. Перейдите в раздел "Категории товаров".
+2. Выберите интересующую категорию.
+3. Отфильтрованный список товаров появится автоматически.
+
+## Структура репозитория
+    ```
+    scm-project/
+├── src/main/java/com.example.scmproject/
+│   ├── application/Application.java 
+│   ├── controller/ 
+│   │   └── GoodsController.java
+│   ├── model/ 
+│   │   ├── Category.java
+│   │   ├── Good.java
+│   │   └── Supplier.java
+│   ├── repository/ 
+│   │   ├── CategoryRepository.java
+│   │   ├── GoodRepository.java
+│   │   └── SupplierRepository.java
+│   └── service/ 
+│       ├── CategoryService.java
+│       ├── GoodService.java
+│       └── SupplierService.java
+├── src/main/resources/application.properties 
+├── pom.xml 
+└── Dockerfile
+    ```
 
 
 
