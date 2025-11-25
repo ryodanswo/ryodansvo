@@ -16,8 +16,11 @@ JDK 11+
 Maven 3.x
 База данных PostgreSQL
 ### Шаги установки
-1.Клонируйте репозиторий:git clone https://github.com/ryodansvo/scm-project.git
-2.Перейдите в папку проекта:cd scm-project
+1.Клонируйте репозиторий:
+git clone https://github.com/ryodansvo/scm-project.git
+2.Перейдите в папку проекта:
+cd scm-project
 3.Создайте базу данных PostgreSQL и настройте подключение в файле application.properties.
-4.Запустите приложение:./mvnw spring-boot:run
+4.Запустите приложение:
+./mvnw spring-boot:run
 или соберите исполняемый JAR-файл:./mvnw clean packagejava -jar target/scm-project.jar
